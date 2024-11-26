@@ -13,21 +13,22 @@ This project involves classifying Taiwanese stocks (TWSE) into different sectors
 
 To run this project locally, you'll need to have Python and several Python packages installed.
 
-1. **Clone the repository:**
+   ## Clone the repository 
 
-   ```bash
-   git clone https://github.com/Zaphkiel1031/TWSE_Sector_Classification.git
-   cd TWSE_Sector_Classification
-   ```
+      ```bash
+      git clone https://github.com/Zaphkiel1031/TWSE_Sector_Classification.git
+      cd TWSE_Sector_Classification
+      ```
    Install dependencies:
    Ensure you have Python 3 installed. Then, create a virtual environment and install the required dependencies.
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Mac/Linux
-    venv\Scripts\activate     # For Windows
-    pip install -r requirements.txt
-    ```
+       ```bash
+       python -m venv venv
+       source venv/bin/activate  # For Mac/Linux
+       venv\Scripts\activate     # For Windows
+       pip install -r requirements.txt
+       ```
+    
     ### Required Libraries:
 
     - **yfinance**: To fetch stock data from Yahoo Finance.
@@ -65,19 +66,12 @@ To run this project locally, you'll need to have Python and several Python packa
     - Create a new Pull Request.
 
 
-### Key Sections Explained:
-
-- **Features**: A summary of what the project does.
-- **Installation**: Step-by-step guide to setting up the project locally.
-- **Usage**: Instructions for how to run the project.
-- **Files**: Overview of key files in the project.
-- **Contributing**: Basic guidelines for contributing to the project.
-- **License**: A simple open-source license (MIT License is a popular choice).
-
-### Next Steps:
-1. Save the above content in a `README.md` file in your repository.
-2. Commit the `README.md` file to your Git repository:
-   ```bash
-   git add README.md
-   git commit -m "Add README file"
-   git push
+    ### Key Sections Explained
+      
+    - **Features**: A summary of what the project does.
+    - **Installation**: Step-by-step guide to setting up the project locally.
+    - **Usage**: Instructions for how to run the project.
+    - **Files**: Overview of key files in the project.
+    - **Contributing**: Basic guidelines for contributing to the project.
+    - **License**: A simple open-source license (MIT License is a popular choice).
+   
