@@ -28,12 +28,12 @@ source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 ```
-### Required Libraries:
+### Required Libraries
 - yfinance: To fetch stock data from Yahoo Finance.
 - json: For reading and writing JSON files.
 - os: For file and directory management.
   
-### Usage:
+### Usage
 Run the classification script
 After installing dependencies, run the GICS_sector.py script to start the classification process.
 
