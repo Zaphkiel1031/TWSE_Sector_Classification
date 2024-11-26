@@ -23,7 +23,6 @@ To run this project locally, you'll need to have Python and several Python packa
    Ensure you have Python 3 installed. Then, create a virtual environment and install the required dependencies.
 
     ```bash
-    複製程式碼
     python -m venv venv
     source venv/bin/activate  # For Mac/Linux
     venv\Scripts\activate     # For Windows
