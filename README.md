@@ -28,13 +28,15 @@ To run this project locally, you'll need to have Python and several Python packa
     venv\Scripts\activate     # For Windows
     pip install -r requirements.txt
     ```
-    Required Libraries:
+    ### Required Libraries:
 
-    yfinance: To fetch stock data from Yahoo Finance.
-    json: For reading and writing JSON files.
-    os: For file and directory management.
+    - **yfinance**: To fetch stock data from Yahoo Finance.
    
-    Usage
+    - **json**: For reading and writing JSON files.
+   
+    - **os**: For file and directory management.
+   
+    ### Usage
     Run the classification script:
     
     After installing dependencies, run the GICS_sector.py script to start the classification process.
@@ -46,18 +48,21 @@ To run this project locally, you'll need to have Python and several Python packa
 
     The classified data will be saved as JSON files under the TWSE_sector_data folder. Each file will contain stock data grouped by sector.
 
-    Files
-    GICS_sector.py: The main Python script for classifying stocks into sectors.
-    TWSE_sector_data/: Directory containing JSON files for each sector.
-    stock_infos.json: The stock data file containing details of stocks to be classified.
-    .gitignore: Specifies files to be ignored by Git.
-    README.md: Project documentation.
-    Contributing
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch).
-    Commit your changes (git commit -m 'Add new feature').
-    Push to the branch (git push origin feature-branch).
-    Create a new Pull Request.
+    ### Files
+   
+    - **GICS_sector.py**: The main Python script for classifying stocks into sectors.
+    - **TWSE_sector_data/**: Directory containing JSON files for each sector.
+    - **stock_infos.json**: The stock data file containing details of stocks to be classified.
+    - **.gitignore**: Specifies files to be ignored by Git.
+    - **README.md**: Project documentation.
+   
+    ### Contributing
+   
+    - Fork the repository.
+    - Create a new branch (git checkout -b feature-branch).
+    - Commit your changes (git commit -m 'Add new feature').
+    - Push to the branch (git push origin feature-branch).
+    - Create a new Pull Request.
 
 
 ### Key Sections Explained:
